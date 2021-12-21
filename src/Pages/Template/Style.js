@@ -47,7 +47,7 @@ export const RightBox = styled.div`
 `;
 
 export const ContentWrapper = styled.div`
-  min-width: 36.875rem;
+  width: 36.875rem;
   height: 100%;
   box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.25);
 `;

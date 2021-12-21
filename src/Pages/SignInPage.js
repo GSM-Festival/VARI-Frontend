@@ -1,12 +1,11 @@
-import { SignIn } from "../../Components";
-import * as S from "./Style";
+import { SignIn } from "../Components";
 
 const SignInPage = () => {
   return (
     <>
       <SignIn />
     </>
-  )
+  );
 };
 
 export default SignInPage;
