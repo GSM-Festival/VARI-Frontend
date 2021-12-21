@@ -1,8 +1,12 @@
+import { PageTemplate } from "./Pages";
+import Router from "./Router";
+import GlobalFonts from "./Font/font.js";
+
 function App() {
   return (
-    <>
-      <div />
-    </>
+    <PageTemplate>
+      <Router />
+    </PageTemplate>
   );
 }
 
