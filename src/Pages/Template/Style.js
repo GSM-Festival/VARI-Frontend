@@ -4,28 +4,25 @@ export const Positioner = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
-  justify-content: center;
-`;
-
-export const Wrapper = styled.div`
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: row;
 `;
 
 export const LeftBox = styled.div`
-  margin-left: 14rem;
+  border: 1px solid red;
+  width: 50%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
   p {
     font-size: 1.875rem;
     font-weight: 700;
   }
-  @media screen and (max-width: 1350px) {
+  svg {
+    margin-top: 5.375rem;
+  }
+  @media screen and (max-width: 1200px) {
     display: none;
   }
 `;
@@ -39,20 +36,19 @@ export const LogoWrapper = styled.div`
   margin-bottom: 2.5rem;
 `;
 
-export const ImgWrapper = styled.div`
-  width: 31.875rem;
-  height: 22.5rem;
-  margin-top: 5.3rem;
+export const RightBox = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  height: 100%;
+  @media screen and (max-width: 1200px) {
+    width: 100%;
+    justify-content: center;
+  }
 `;
 
 export const ContentWrapper = styled.div`
   min-width: 36.875rem;
-  min-height: 100%;
-  margin-right: 23.125rem;
+  height: 100%;
   box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.25);
-  @media screen and (max-width: 1350px) {
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
 `;
