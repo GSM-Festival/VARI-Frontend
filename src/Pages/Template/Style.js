@@ -8,7 +8,6 @@ export const Positioner = styled.div`
 `;
 
 export const LeftBox = styled.div`
-  border: 1px solid red;
   width: 50%;
   display: flex;
   flex-direction: column;
