@@ -4,7 +4,7 @@ import * as I from "../../Assets";
 const Signin = () => {
   return (
     <S.Positioner>
-      <I.jebal />
+      <I.LogoBig />
     </S.Positioner>
   );
 };
