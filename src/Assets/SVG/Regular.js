@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function Logo(props) {
+function LogoRegular(props) {
   return (
     <svg width={170} height={39} fill="none" {...props}>
       <path fill="url(#prefix__pattern0)" d="M0 0h170v39H0z" />
@@ -27,5 +27,5 @@ function Logo(props) {
   );
 }
 
-const MemoLogo = React.memo(Logo);
-export default MemoLogo;
+const MemoLogoRegular = React.memo(LogoRegular);
+export default MemoLogoRegular;

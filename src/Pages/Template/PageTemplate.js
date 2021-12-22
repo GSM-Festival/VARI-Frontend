@@ -1,5 +1,5 @@
 import * as S from "./Style";
-import * as I from "../../Assets/SVG";
+import * as I from "../../Assets";
 
 const PageTemplate = ({ children }) => {
   return (
@@ -7,7 +7,7 @@ const PageTemplate = ({ children }) => {
       <S.Positioner>
         <S.LeftBox>
           <S.LogoWrapper>
-            <I.Logo />
+            <I.LogoBig />
           </S.LogoWrapper>
           <p>
             GSM 프로젝트 구인구직 사이트,

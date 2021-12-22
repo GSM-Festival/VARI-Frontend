@@ -1,12 +1,10 @@
 import * as S from "./Style";
-import * as I from "../../Assets/SVG";
+import * as I from "../../Assets";
 
 const Signin = () => {
   return (
     <S.Positioner>
-      <S.Logo>
-        <I.Logo />
-      </S.Logo>
+      <I.jebal />
     </S.Positioner>
   );
 };
