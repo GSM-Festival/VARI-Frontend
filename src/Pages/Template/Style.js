@@ -9,6 +9,7 @@ export const Positioner = styled.div`
 
 export const LeftBox = styled.div`
   width: 50%;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
