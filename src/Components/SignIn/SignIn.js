@@ -8,12 +8,14 @@ const Signin = () => {
       <S.LogoWrapper>
         <I.LogoSmall />
       </S.LogoWrapper>
-      <S.LabelStyle>Email</S.LabelStyle>
-      <S.InputWrapper>
-        <S.InputStyle placeholder="이메일을 입력하세요." />
-      </S.InputWrapper>
-      <S.LabelStyle>Password</S.LabelStyle>
-      <S.InputStyle placeholder="비밀번호를 입력하세요." />
+      <S.InputContainer>
+        <S.LabelStyle>Email</S.LabelStyle>
+        <S.IdWrapper>
+          <S.InputStyle placeholder="이메일을 입력하세요." />
+        </S.IdWrapper>
+        <S.LabelStyle>Password</S.LabelStyle>
+        <S.InputStyle type="password" placeholder="비밀번호를 입력하세요." />
+      </S.InputContainer>
       <S.ButtonStyle>
         <Link to="/">로그인</Link>
       </S.ButtonStyle>

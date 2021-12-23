@@ -7,32 +7,38 @@ export const Positioner = styled.div`
   align-items: center;
 `;
 
-export const LogoWrapper = styled.div`
-  margin-top: 152px;
-  margin-bottom: 143px;
+export const InputContainer = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 `;
 
-export const InputWrapper = styled.div`
+export const LogoWrapper = styled.div`
+  margin-top: 150px;
+  margin-bottom: 140px;
+`;
+
+export const IdWrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 28px;
 `;
 
 export const LabelStyle = styled.label`
-  width: 100%;
-  margin-left: 85px;
   font-size: 22px;
   font-weight: 500;
 `;
 
 export const InputStyle = styled.input`
   margin-top: 10px;
-  width: 500px;
+  width: 490px;
   height: 60px;
   background-color: #f3f3f3;
   border-radius: 10px;
   border: none;
-  padding-left: 10px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
 `;
 
 export const ButtonStyle = styled.button`
