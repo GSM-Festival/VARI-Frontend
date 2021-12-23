@@ -53,7 +53,7 @@ export const ButtonStyle = styled.button`
 `;
 
 export const SignupContainer = styled.div`
-  margin-top: 200px;
+  margin-top: 72px;
   span {
     color: #9f9f9f;
   }
