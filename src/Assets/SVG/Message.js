@@ -8,3 +8,5 @@ const Message = () => {
     </svg>
   );
 };
+
+export default Message;
