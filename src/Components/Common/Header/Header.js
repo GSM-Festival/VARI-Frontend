@@ -1,7 +1,9 @@
+import * as S from "./Style";
+
 const Header = () => {
   return (
     <div>
-      <p>hi</p>
+      <S.Positioner></S.Positioner>
     </div>
   );
 };
