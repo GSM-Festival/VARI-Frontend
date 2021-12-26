@@ -12,6 +12,9 @@ export const Positioner = styled.div`
 export const LogoWrapper = styled.div`
   margin-left: 19px;
 `;
+export const MemberWrapper = styled.div`
+  margin-left: 297px;
+`;
 
 export const Member = styled.div`
   font-size: 20px;
@@ -22,4 +25,8 @@ export const Member = styled.div`
     color: #395bb4;
     font-size: 17px;
   }
+`;
+
+export const MessageWrapper = styled.div`
+  margin-left: 34px;
 `;

@@ -9,10 +9,14 @@ const Header = () => {
         <S.LogoWrapper>
           <img src={HeaderLogo} />
         </S.LogoWrapper>
-        <S.Member>
-          정대우<strong>님</strong>
-        </S.Member>
-        <I.Message />
+        <S.MemberWrapper>
+          <S.Member>
+            정대우<strong>님</strong>
+          </S.Member>
+        </S.MemberWrapper>
+        <S.MessageWrapper>
+          <I.Message />
+        </S.MessageWrapper>
       </S.Positioner>
     </>
   );
