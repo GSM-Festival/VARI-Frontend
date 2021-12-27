@@ -13,7 +13,9 @@ const Navigate = () => {
           VARI에서 함께 할 팀원을 찾아보세요!
         </p>
       </S.TextWrapper>
-      <img src={NavigateLogo} />
+      <S.LogoWrapper>
+        <img src={NavigateLogo} />
+      </S.LogoWrapper>
     </S.Positioner>
   );
 };
