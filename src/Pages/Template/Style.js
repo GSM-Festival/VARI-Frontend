@@ -5,6 +5,7 @@ export const Positioner = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: row;
+  position: fixed;
 `;
 
 export const LeftBox = styled.div`

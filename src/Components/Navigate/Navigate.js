@@ -1,5 +1,5 @@
 import * as S from "./Style";
-import NavigateLogo from "../../Assets/SVG/NavigateLogo.svg";
+import * as I from "../../Assets";
 import NavImg from "../../Assets/SVG/NavImg.svg";
 
 const Navigate = () => {
@@ -14,7 +14,7 @@ const Navigate = () => {
           VARI에서 함께 할 팀원을 찾아보세요!
         </S.TextWrapper>
         <S.LogoWrapper>
-          <img src={NavigateLogo} alt="" />
+          <I.LogoSmall />
         </S.LogoWrapper>
       </S.LeftBox>
       <S.ImgWrapper>
