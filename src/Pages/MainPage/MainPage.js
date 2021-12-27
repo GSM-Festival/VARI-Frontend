@@ -1,10 +1,11 @@
-import { Header, Navigate } from "../Components";
+import { Header, Navigate, Section } from "../../Components";
 
 function MainPage() {
   return (
     <>
       <Header />
       <Navigate />
+      <Section />
     </>
   );
 }
