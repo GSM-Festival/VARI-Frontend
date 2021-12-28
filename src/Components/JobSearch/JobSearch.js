@@ -1,5 +1,6 @@
 import { useState } from "react";
 import * as S from "./Style";
+import Pen from "../../Assets/SVG/Pen.svg";
 
 const JobSearch = () => {
   const [on1, setOn1] = useState(true);
@@ -44,7 +45,7 @@ const JobSearch = () => {
           </S.TopicBtn>
           {on1 && (
             <S.TopicList>
-              <S.TopicItem>아이템 1</S.TopicItem>
+              <S.TopicItem>1아이템</S.TopicItem>
             </S.TopicList>
           )}
         </div>
@@ -78,6 +79,9 @@ const JobSearch = () => {
             </S.TopicList>
           )}
         </div>
+        <S.WriteBtn>
+          <img src={Pen} alt="" />
+        </S.WriteBtn>
       </S.Topic>
     </S.Positioner>
   );
