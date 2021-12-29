@@ -79,7 +79,7 @@ const JobSearch = () => {
             </S.TopicList>
           )}
         </div>
-        <S.WriteBtn>
+        <S.WriteBtn to="/write">
           <img src={Pen} alt="" />
         </S.WriteBtn>
       </S.Topic>

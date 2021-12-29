@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled, { css } from "styled-components";
 
 export const Positioner = styled.div`
@@ -48,14 +49,17 @@ export const TopicItem = styled.div`
   border: 1px solid blue;
 `;
 
-export const WriteBtn = styled.button`
+export const WriteBtn = styled(Link)`
   background-color: #fff;
   border-radius: 50px;
   position: absolute;
   width: 100px;
   height: 100px;
   margin-left: 390px;
-  top: 933px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 50px;
   border: none;
   cursor: pointer;
   transform: scaleX(-1);
