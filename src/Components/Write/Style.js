@@ -55,5 +55,22 @@ export const SelectBox = styled.div`
     background-image: url(${A});
     background-repeat: no-repeat;
     background-position: right 15px center;
+    cursor: pointer;
   }
+`;
+
+export const NameWrapper = styled.div`
+  margin-left: 30px;
+  margin-top: 25px;
+`;
+export const Name = styled.input`
+  margin-top: 10px;
+  width: 490px;
+  height: 55px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  border: none;
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: 500;
 `;
