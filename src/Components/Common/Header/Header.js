@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       <S.Positioner>
-        <S.LogoWrapper>
+        <S.LogoWrapper to="/">
           <img src={HeaderLogo} />
         </S.LogoWrapper>
         <S.MemberWrapper>

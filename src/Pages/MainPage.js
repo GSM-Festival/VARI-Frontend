@@ -1,6 +1,6 @@
 import { Header, JobSearch, Navigate } from "../Components";
 
-function MainPage() {
+const MainPage = () => {
   return (
     <>
       <Header />
@@ -8,6 +8,6 @@ function MainPage() {
       <JobSearch />
     </>
   );
-}
+};
 
 export default MainPage;
