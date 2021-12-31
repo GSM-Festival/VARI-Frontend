@@ -40,7 +40,9 @@ const Write = () => {
         <S.content placeholder="내용을 입력해주세요."></S.content>
       </S.ContentWrapper>
       <S.BtnWrapper>
-        <S.Btn to="/">저장</S.Btn>
+        <S.Btn to="/" onClick={() => alert("저장 완료")}>
+          저장
+        </S.Btn>
         <S.Btn to="/">취소</S.Btn>
       </S.BtnWrapper>
     </S.Positioner>
