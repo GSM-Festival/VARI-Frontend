@@ -5,3 +5,4 @@ export { default as Navigate } from "./Navigate/Navigate";
 export { default as JobSearch } from "./JobSearch/JobSearch";
 export { default as Write } from "./Write/Write";
 export { default as JobSearchDetail } from "./JobSearchDetail/JobSearchDetail";
+export { default as Apply } from "./Apply/Apply";
