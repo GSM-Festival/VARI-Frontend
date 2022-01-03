@@ -35,6 +35,7 @@ export const TopicBtn = styled.button`
     css`
       border-bottom: 6px solid #395bb4;
       color: #395bb4;
+      border-radius: 4px;
     `}
 `;
 
