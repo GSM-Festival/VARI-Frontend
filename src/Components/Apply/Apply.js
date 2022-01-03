@@ -24,11 +24,11 @@ function Apply() {
           </select>
         </S.SelectBox>
       </S.Wrapper>
-      <S.NameWrapper>
-        <S.LabelStyle>프로젝트 이름을 입력해주세요.</S.LabelStyle>
+      <S.SkillWrapper>
+        <S.LabelStyle>사용할 수 있는 언어를 적어주세요.</S.LabelStyle>
 
-        <S.Name placeholder="입력"></S.Name>
-      </S.NameWrapper>
+        <S.Skill placeholder="ex) Python, Kotlin"></S.Skill>
+      </S.SkillWrapper>
       <S.ContentWrapper>
         <S.content placeholder="내용을 입력해주세요."></S.content>
       </S.ContentWrapper>

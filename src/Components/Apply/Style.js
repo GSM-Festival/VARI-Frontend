@@ -67,11 +67,11 @@ export const SelectBox = styled.div`
   }
 `;
 
-export const NameWrapper = styled.div`
+export const SkillWrapper = styled.div`
   margin-left: 30px;
   margin-top: 25px;
 `;
-export const Name = styled.input`
+export const Skill = styled.input`
   margin-top: 10px;
   width: 490px;
   height: 55px;

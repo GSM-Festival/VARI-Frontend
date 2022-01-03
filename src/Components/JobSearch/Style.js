@@ -49,6 +49,8 @@ export const TopicItem = styled.div`
   border: 1px solid blue;
 `;
 
+export const WriteItem = styled.div``;
+
 export const WriteBtn = styled(Link)`
   background-color: #fff;
   border-radius: 50px;
