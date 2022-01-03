@@ -18,12 +18,13 @@ export const Topic = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 440px;
+  width: 500px;
   margin-top: 80px;
 `;
 
 export const TopicBtn = styled.button`
   height: 42px;
+  width: 100px;
   border: none;
   background: none;
   font-size: 20px;
@@ -35,7 +36,6 @@ export const TopicBtn = styled.button`
     css`
       border-bottom: 6px solid #395bb4;
       color: #395bb4;
-      border-radius: 4px;
     `}
 `;
 
@@ -49,8 +49,6 @@ export const TopicItem = styled.div`
   font-size: 18px;
   border: 1px solid blue;
 `;
-
-export const WriteItem = styled.div``;
 
 export const WriteBtn = styled(Link)`
   background-color: #fff;

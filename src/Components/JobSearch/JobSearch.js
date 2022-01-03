@@ -43,6 +43,12 @@ const JobSearch = () => {
       categori: "project",
     },
     {
+      id: 10,
+      title: "디자이너 구해요",
+      prjName: "아리수",
+      categori: "project",
+    },
+    {
       id: 1,
       title: "디자이너 구해요",
       prjName: "아리수",
@@ -78,6 +84,15 @@ const JobSearch = () => {
           </S.TopicBtn>
           {on1 && (
             <S.TopicList>
+              {projectArr.map((a) => (
+                <Link to="/show">
+                  <JobSearchItem
+                    id={a.id}
+                    title={a.title}
+                    prjName={a.prjName}
+                  />
+                </Link>
+              ))}
               {projectArr.map((a) => (
                 <Link to="/show">
                   <JobSearchItem
