@@ -1,5 +1,4 @@
 import * as S from "./Style";
-import { Link } from "react-router-dom";
 
 const JobSearchDetail = () => {
   return (
@@ -12,9 +11,7 @@ const JobSearchDetail = () => {
         좋겠어요~~! 같이 열심히 해서 원하는 기업에 취업할 분들 구해요.
       </S.Content>
       <S.BtnWrapper>
-        <S.Btn to="/" onClick={() => alert("신청 완료")}>
-          신청
-        </S.Btn>
+        <S.Btn to="/apply">신청</S.Btn>
         <S.Btn to="/">취소</S.Btn>
       </S.BtnWrapper>
     </S.Positioner>
