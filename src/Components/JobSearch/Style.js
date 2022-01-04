@@ -16,7 +16,6 @@ export const Positioner = styled.div`
 
 export const Topic = styled.div`
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   width: 500px;
   margin-top: 80px;
@@ -40,14 +39,9 @@ export const TopicBtn = styled.button`
 `;
 
 export const TopicList = styled.div`
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-`;
-
-export const TopicItem = styled.div`
-  font-size: 18px;
+  margin-top: 30px;
   border: 1px solid blue;
+  flex-wrap: wrap;
 `;
 
 export const WriteBtn = styled(Link)`
