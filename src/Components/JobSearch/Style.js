@@ -6,7 +6,6 @@ export const Positioner = styled.div`
   width: 100%;
   background-color: #f9f9f9;
   overflow: scroll;
-
   ::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera */
   }
@@ -14,16 +13,17 @@ export const Positioner = styled.div`
   justify-content: center;
 `;
 
-export const Topic = styled.div`
+export const BtnWrapper = styled.div`
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  width: 440px;
-  margin-top: 80px;
+  width: 500px;
+  height: 50px;
+  margin-top: 60px;
 `;
 
 export const TopicBtn = styled.button`
-  height: 42px;
+  height: 40px;
+  width: 100px;
   border: none;
   background: none;
   font-size: 20px;
@@ -39,14 +39,14 @@ export const TopicBtn = styled.button`
 `;
 
 export const TopicList = styled.div`
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 `;
 
-export const TopicItem = styled.div`
-  font-size: 18px;
-  border: 1px solid blue;
+export const LinkBtn = styled(Link)`
+  text-decoration: none;
 `;
 
 export const WriteBtn = styled(Link)`
