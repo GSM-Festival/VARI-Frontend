@@ -6,7 +6,6 @@ export const Positioner = styled.div`
   width: 100%;
   background-color: #f9f9f9;
   overflow: scroll;
-
   ::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera */
   }
@@ -14,15 +13,16 @@ export const Positioner = styled.div`
   justify-content: center;
 `;
 
-export const Topic = styled.div`
+export const BtnWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   width: 500px;
-  margin-top: 80px;
+  height: 50px;
+  margin-top: 60px;
 `;
 
 export const TopicBtn = styled.button`
-  height: 42px;
+  height: 40px;
   width: 100px;
   border: none;
   background: none;
@@ -40,8 +40,13 @@ export const TopicBtn = styled.button`
 
 export const TopicList = styled.div`
   margin-top: 30px;
-  border: 1px solid blue;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+`;
+
+export const LinkBtn = styled(Link)`
+  text-decoration: none;
 `;
 
 export const WriteBtn = styled(Link)`

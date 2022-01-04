@@ -4,7 +4,8 @@ const JobSearch = ({ id, title, prjName }) => {
   return (
     <>
       <S.container>
-        {title}, {prjName}
+        <h1>{title}</h1>
+        <span>{prjName}</span>
       </S.container>
     </>
   );

@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import * as S from "./Style";
 import Pen from "../../Assets/SVG/Pen.svg";
 import JobSearchItem from "../JobSearchItem/JobSearchItem";
-import { Link } from "react-router-dom";
 
 const JobSearch = () => {
   const [on1, setOn1] = useState(true);
@@ -43,45 +42,45 @@ const JobSearch = () => {
       categori: "project",
     },
     {
-      id: 0,
-      title: "디자이너 구해요",
+      id: 1,
+      title: "개발자 구해요",
       prjName: "아리수",
       categori: "project",
     },
     {
-      id: 1,
-      title: "디자이너 구해요",
-      prjName: "아리수",
-      categori: "contest",
-    },
-    {
-      id: 1,
-      title: "디자이너 구해요",
-      prjName: "아리수",
-      categori: "contest",
-    },
-    {
       id: 2,
-      title: "디자이너 구해요",
-      prjName: "아리수",
-      categori: "portpolio",
-    },
-    {
-      id: 2,
-      title: "디자이너 구해요",
-      prjName: "아리수",
-      categori: "portpolio",
+      title: "기획자 구해요",
+      prjName: "더모먼트",
+      categori: "contest",
     },
     {
       id: 3,
-      title: "디자이너 구해요",
-      prjName: "아리수",
+      title: "밥 해줄사람 구해요",
+      prjName: "더모먼트",
+      categori: "contest",
+    },
+    {
+      id: 4,
+      title: "정대우 구해요",
+      prjName: "팀배리",
+      categori: "portpolio",
+    },
+    {
+      id: 5,
+      title: "송시현 구해요",
+      prjName: "팀배리",
+      categori: "portpolio",
+    },
+    {
+      id: 6,
+      title: "공부할 사람 구해요",
+      prjName: "신은재",
       categori: "study",
     },
     {
-      id: 3,
-      title: "디자이너 구해요",
-      prjName: "아리수",
+      id: 7,
+      title: "놀러갈 사람 구해요",
+      prjName: "신은재",
       categori: "study",
     },
   ];
@@ -95,20 +94,69 @@ const JobSearch = () => {
 
   return (
     <S.Positioner>
-      <S.Topic>
-        <S.TopicBtn onClick={onClick1} active={on1}>
-          프로젝트
-        </S.TopicBtn>
-      </S.Topic>
+      <div>
+        <S.BtnWrapper>
+          <S.TopicBtn onClick={onClick1} active={on1}>
+            프로젝트
+          </S.TopicBtn>
+          <S.TopicBtn onClick={onClick2} active={on2}>
+            대회
+          </S.TopicBtn>
+          <S.TopicBtn onClick={onClick3} active={on3}>
+            포트폴리오
+          </S.TopicBtn>
+          <S.TopicBtn onClick={onClick4} active={on4}>
+            스터디
+          </S.TopicBtn>
+        </S.BtnWrapper>
 
-      <S.TopicList>
-        {on1 &&
-          projectArr.map((a) => (
-            <Link to="/show">
-              <JobSearchItem id={a.id} title={a.title} prjName={a.prjName} />
-            </Link>
-          ))}
-      </S.TopicList>
+        <S.TopicList>
+          {on1 &&
+            projectArr.map((a) => (
+              <S.LinkBtn to="/show">
+                <JobSearchItem
+                  key={a.id}
+                  id={a.id}
+                  title={a.title}
+                  prjName={a.prjName}
+                />
+              </S.LinkBtn>
+            ))}
+          {on2 &&
+            contestArr.map((a) => (
+              <S.LinkBtn to="/show">
+                <JobSearchItem
+                  key={a.id}
+                  id={a.id}
+                  title={a.title}
+                  prjName={a.prjName}
+                />
+              </S.LinkBtn>
+            ))}
+          {on3 &&
+            portpolioArr.map((a) => (
+              <S.LinkBtn to="/show">
+                <JobSearchItem
+                  key={a.id}
+                  id={a.id}
+                  title={a.title}
+                  prjName={a.prjName}
+                />
+              </S.LinkBtn>
+            ))}
+          {on4 &&
+            studyArr.map((a) => (
+              <S.LinkBtn to="/show">
+                <JobSearchItem
+                  key={a.id}
+                  id={a.id}
+                  title={a.title}
+                  prjName={a.prjName}
+                />
+              </S.LinkBtn>
+            ))}
+        </S.TopicList>
+      </div>
       <S.WriteBtn to="/write">
         <img src={Pen} alt="" />
       </S.WriteBtn>
