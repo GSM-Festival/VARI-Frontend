@@ -4,7 +4,6 @@ function Apply() {
   return (
     <S.Positioner>
       <S.WriteText>신청하기</S.WriteText>
-
       <S.Wrapper>
         <S.Number placeholder="ex)3119 진예원">
           <S.LabelStyle>학번과 이름을 이력해주세요.</S.LabelStyle>

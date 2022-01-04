@@ -5,6 +5,10 @@ import A from "../../Assets/SVG/Arrow.svg";
 export const Positioner = styled.div`
   display: flex;
   flex-direction: column;
+  overflow: scroll;
+  ::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
 `;
 export const WriteText = styled.div`
   margin-top: 64px;

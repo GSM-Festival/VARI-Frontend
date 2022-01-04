@@ -74,13 +74,13 @@ const JobSearch = () => {
     {
       id: 6,
       title: "공부할 사람 구해요",
-      prjName: "신은재",
+      prjName: "정대우",
       categori: "study",
     },
     {
       id: 7,
       title: "놀러갈 사람 구해요",
-      prjName: "신은재",
+      prjName: "정대우",
       categori: "study",
     },
   ];
